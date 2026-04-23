@@ -65,6 +65,7 @@ def run_query():
     
 
     logger.info("cleaning customers data")
+    
     df_customers["signup_date"] = pd.to_datetime(
         df_customers["signup_date"], format="mixed", utc=True
     )
