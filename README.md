@@ -219,3 +219,4 @@ You can find the container name with `docker compose ps`.
 | `POSTGRES_DB` | `appdb` | Database name |
 | `POSTGRES_HOST` | `db` | Hostname (service name in docker-compose) |
 | `POSTGRES_PORT` | `5432` | PostgreSQL port |
+| `ANTHROPIC_API_KEY` | _(required)_ | API key for the Claude agent used by the `/report` endpoint — obtain from [console.anthropic.com](https://console.anthropic.com) |
